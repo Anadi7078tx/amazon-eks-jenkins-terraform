@@ -7,8 +7,8 @@ env:
     DOCKER_REPO_NAME: "petclinic-spinnaker-jenkins"
     ECR_REPOSITORY_URI: "890123456789.dkr.ecr.us-east-1.amazonaws.com/petclinic"
   parameter-store:
-    LOGIN_PASSWORD: /CodeBuild/dockerLoginPassword
-    LOGIN_USER: /CodeBuild/dockerLoginUser
+    LOGIN_PASSWORD: "Aadi@7078"
+    LOGIN_USER: "anadi7078"
 phases:
   install:
     runtime-versions:
