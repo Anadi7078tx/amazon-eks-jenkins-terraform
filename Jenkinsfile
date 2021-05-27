@@ -27,9 +27,10 @@ pipeline {
             }
             steps {
                 echo '=== Building Petclinic Docker Image ==='
-                script {
-                    app = docker.build("anadi7078/petclinic-spinnaker-jenkins")
-                }
+                sh "docker run hello-world"
+//                 script {
+//                     app = docker.build("anadi7078/petclinic-spinnaker-jenkins")
+//                 }
             }
         }
         stage('Push Docker Image') {
