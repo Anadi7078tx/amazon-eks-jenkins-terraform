@@ -29,7 +29,7 @@ pipeline {
                 echo '=== Building Petclinic Docker Image ==='
                
                script {
-                    app = docker.build("anadi7078/petclinic-spinnaker-jenkins")
+                    app = docker.build("anadi7078tx/petclinic-spinnaker-jenkins")
                 }
             }
         }
